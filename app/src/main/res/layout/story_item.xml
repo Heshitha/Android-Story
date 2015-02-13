@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#fff">
+
+
+        <ImageView
+            android:id="@+id/imgStoryImage"
+            android:layout_gravity="center|top"
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|top"
+            android:background="@drawable/storyitembackground"
+           >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Story Title"
+                android:id="@+id/txtStoryName"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author"
+                android:id="@+id/txtStoryAuthor"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:layout_above="@+id/txtStorySummery"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Summery"
+                android:id="@+id/txtStorySummery"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Published Date"
+                android:id="@+id/txtPublishedDate"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no of reviews"
+                android:id="@+id/txtNoofReviews"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/txtStoryID" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/txtFullStory" />
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+</RelativeLayout>

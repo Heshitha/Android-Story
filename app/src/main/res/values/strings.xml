@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Story</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_text">Welcome to your Story</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="termsandconditions">By joining you agree to our <u>Terms</u> &amp; <u>Privacy</u> <u>Policy</u></string>
+    <string name="forgot_your_password"><u>Forgot Your Password ?</u></string>
+    <string name="create_new_account"><u>Create New Account</u></string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="read_story_home_page">Read stories wherever you are</string>
+    <string name="write_story_home_page">Write your story on the go</string>
+    <string name="title_activity_story_catagory_list">Categories</string>
+    <string name="title_activity_story_list">StoryListActivity</string>
+    <string name="title_activity_story_list_activity2">StoryListActivity2</string>
+    <string name="title_activity_read_story">ReadStoryActivity</string>
+    <string name="title_activity_story_write">StoryWriteActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_retrieve_password">RetrievePasswordActivity</string>
+    <string name="title_activity_welcome_back">WelcomeBackActivity</string>
+
+</resources>
